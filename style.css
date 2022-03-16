@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'buton';
+    src: url('fonts/MADE\ Evolve\ Sans\ Medium\ EVO\ \(PERSONAL\ USE\).otf');
+}
+
+@font-face {
+    font-family: 'sub';
+    src: url('fonts/couture-bld.otf');
+}
+
+@font-face {
+    font-family: 'tittle';
+    src: url('fonts/Bison-Bold\(PersonalUse\).ttf');
+}
+
+@font-face {
+    font-family: 'evolve';
+    src: url('fonts/MADE\ Evolve\ Sans\ Light\ \(PERSONAL\ USE\).otf');
+}
+
+@font-face {
+    font-family: 'bold_evolve';
+    src: url('fonts/MADE\ Evolve\ Sans\ Bold\ \(PERSONAL\ USE\).otf');
+}
+body{ 
+    background-image: linear-gradient(to bottom,#5E5D58,#ABA89F);
+   text-align: center;
+}
+div{
+    text-align: center;
+    background-color: #ABA89F;
+    max-width: 600px;
+    min-width: 400px;
+    max-height: 70em;
+    margin: 0 auto;
+    
+}
+
+header > h1{
+    font-family: 'tittle';
+}
+
+.nav-objects{
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'evolve';
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 20em;
+    height: 35px;
+    border-color:transparent;
+    border-radius: 3px;
+    background-color: #c0c0beec;
+    color: white;
+}
+.nav-objects:focus{
+    background-color: #ABA89F;
+   
+}
+
+section > h2{
+    font-family: 'bold_evolve';
+}
+
+.check{
+  margin-top: 10px;
+  
+}
+
+select{
+    border-color: transparent;
+    width: 100px;
+    height: 2.5em;
+}
+select::after{
+    border-color: transparent;
+}
+
+
+h3{
+    font-family: 'evolve';
+}
+
+button{
+    font-weight: bold;
+    font-family: 'buton';
+   width: 15em;
+   height: 5em;
+   background-color: #73706E;
+   border-color: #ABA89F transparent;
+   border-radius: 7px;
+}
+button:hover{
+    background-color: #5E5D58;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+}
+textarea{
+    max-width: 400px;
+}
+textarea:focus{
+    background-color: #ABA89F;
+}
+
+span::after{
+    font-weight: bold;
+    font-family:'evolve' ;
+    padding-right: 8em;
+    padding-left: 8em;
+    padding-top: 15px;
+   background-color: green;
+   border-color: transparent;
+   border-radius: 7px;
+}
+
+.options{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'evolve';
+    border-radius: 2px;
+    height: 40px;
+    width: 130px;
+}
+.senioridade{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'evolve';
+    border-radius: 2px;
+    height: 50px;
+    width: 130px;
+}
+select > option{
+    font-size: 16px;
+}
